@@ -75,7 +75,7 @@ const CurrencyConvertor = ({swap}) => {
                         <InputConverter />
                     </div>
                     <p className={styles.result}>
-                        <span>BALANCE ETC: {from.title}</span>
+                        <span>Balanace ETC: {from.title}</span>
                     </p>
                 </div>
                 <div className={styles.settings}>

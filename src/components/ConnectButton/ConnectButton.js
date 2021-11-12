@@ -18,7 +18,7 @@ const useStyles = makeStyles({
         color: 'black !important',
         textTransform: 'none !important',
         borderRadius: '10px !important',
-        fontFamily: 'IBM Plex Mono", monospace !important',
+        fontFamily: '"IBM Plex Mono", monospace !important',
         fontSize: '0.875rem !important',
         fontWeight: '500 !important',
         lineHeight: '1.75 !important',

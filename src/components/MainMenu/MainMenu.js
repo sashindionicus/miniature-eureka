@@ -14,6 +14,12 @@ const useStyles = makeStyles({
         border: '4px solid rgb(230, 247, 255)',
         borderRadius: '10px',
     },
+    button: {
+        fontFamily: '"IBM Plex Mono", monospace !important',
+        background: '#e6f7ff !important',
+        color: 'black !important',
+        width: '100px',
+    }
 })
 
 const MainMenu = ({setSwap}) => {
@@ -22,8 +28,8 @@ const MainMenu = ({setSwap}) => {
     return(
             <Box className={styles.menu}>
                 <ToggleButtonGroup >
-                    <ToggleButton value='left' aria-pressed='true' onClick={() => setSwap(true)}>Swap</ToggleButton>
-                    <ToggleButton value='right' aria-pressed='false' onClick={() => setSwap(false)}>Claim</ToggleButton>
+                    <ToggleButton className={styles.button} value='left' aria-pressed='true' onClick={() => setSwap(true)}>Swap</ToggleButton>
+                    <ToggleButton className={styles.button} value='right' aria-pressed='false' onClick={() => setSwap(false)}>Claim</ToggleButton>
                 </ToggleButtonGroup>
             </Box>
 

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/miniature-eureka/static/css/main.cf38b91d.chunk.css",
+    "main.js": "/miniature-eureka/static/js/main.0e0e317e.chunk.js",
+    "main.js.map": "/miniature-eureka/static/js/main.0e0e317e.chunk.js.map",
+    "runtime-main.js": "/miniature-eureka/static/js/runtime-main.a433ddaf.js",
+    "runtime-main.js.map": "/miniature-eureka/static/js/runtime-main.a433ddaf.js.map",
+    "static/js/2.a4a90ddf.chunk.js": "/miniature-eureka/static/js/2.a4a90ddf.chunk.js",
+    "static/js/2.a4a90ddf.chunk.js.map": "/miniature-eureka/static/js/2.a4a90ddf.chunk.js.map",
+    "index.html": "/miniature-eureka/index.html",
+    "static/css/main.cf38b91d.chunk.css.map": "/miniature-eureka/static/css/main.cf38b91d.chunk.css.map",
+    "static/js/2.a4a90ddf.chunk.js.LICENSE.txt": "/miniature-eureka/static/js/2.a4a90ddf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a433ddaf.js",
+    "static/js/2.a4a90ddf.chunk.js",
+    "static/css/main.cf38b91d.chunk.css",
+    "static/js/main.0e0e317e.chunk.js"
+  ]
+}

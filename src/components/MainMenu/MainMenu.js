@@ -8,7 +8,6 @@ const useStyles = makeStyles({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        maxWidth: '260px',
         width: '100%',
         height: '59px',
         border: '4px solid rgb(230, 247, 255)',

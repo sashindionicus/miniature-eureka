@@ -4,7 +4,7 @@ import logo from'../../assets/logo.png'
 
 const useStyles = makeStyles({
     image: {
-        padding:'0 0 0 0'
+        margin: '-70px 0 -70px 0'
     }
 })
 

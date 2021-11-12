@@ -35,6 +35,18 @@ const useStyles = makeStyles({
         marginBlockStart: '0em !important',
         marginBlockEnd: '0em !important',
     },
+    result: {
+        fontSize: '1rem'
+    },
+    resultBox: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        fontSize: '1rem',
+        fontWeight: '400,',
+        lineHeight: '1.5',
+    }
 })
 
 const CurrencyConvertor = ({swap}) => {
@@ -62,7 +74,9 @@ const CurrencyConvertor = ({swap}) => {
                         <ComboBox props={options} setState={setFrom}/>
                         <InputConverter />
                     </div>
-                    <h5>BALANCE ETC: {from.title}</h5>
+                    <p className={styles.result}>
+                        <span>BALANCE ETC: {from.title}</span>
+                    </p>
                 </div>
                 <div className={styles.settings}>
                     <div className={styles.settingsTitleBox}>
@@ -72,7 +86,9 @@ const CurrencyConvertor = ({swap}) => {
                         <ComboBox props={options} setState={setTo}/>
                     </div>
                 </div>
-                <h5>1 {from.title} = {to.title}</h5>
+                <p className={styles.resultBox} >
+                    <span>1 {from.title} = {to.title}</span>
+                </p>
                 <OrderMenu />
             </div>
         )
